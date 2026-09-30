@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImageAndTextCombinations.MainPage"
+             xmlns:radialMenu="clr-namespace:Syncfusion.Maui.RadialMenu;assembly=Syncfusion.Maui.RadialMenu">
+
+    <Grid Padding="20">
+        <radialMenu:SfRadialMenu CenterButtonText="Profiles">
+            <radialMenu:SfRadialMenu.Items>
+                <radialMenu:SfRadialMenuItem ItemHeight="60" ItemWidth="60" Text="John" Image="john.png" />
+                <radialMenu:SfRadialMenuItem ItemHeight="60" ItemWidth="60" Text="Krish" Image="krish.png" />
+                <radialMenu:SfRadialMenuItem ItemHeight="60" ItemWidth="60" Text="Ram" Image="ram.png" />
+                <radialMenu:SfRadialMenuItem ItemHeight="60" ItemWidth="60" Text="Kather" Image="kather.png" />
+                <radialMenu:SfRadialMenuItem ItemHeight="60" ItemWidth="60" Text="Joe" Image="joe.png" />
+            </radialMenu:SfRadialMenu.Items>
+        </radialMenu:SfRadialMenu>
+    </Grid>
+
+</ContentPage>
